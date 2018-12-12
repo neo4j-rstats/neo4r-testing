@@ -11,3 +11,4 @@ docker build -t neo4rtesting .
 docker run -v ~/results:/home/testenv  neo4rtesting
 ```
 
+The output of the test will be sent to the volume binded to `/home/testenv`.
